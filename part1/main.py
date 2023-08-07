@@ -1,3 +1,5 @@
+#! /usr/bin/env/python311
+
 from dash import Dash
 from dash_bootstrap_components.themes import BOOTSTRAP
 
