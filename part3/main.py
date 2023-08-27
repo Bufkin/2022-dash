@@ -1,3 +1,5 @@
+#! /usr/bin/env/python311
+
 import i18n
 from dash import Dash
 from dash_bootstrap_components.themes import BOOTSTRAP
