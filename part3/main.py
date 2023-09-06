@@ -1,5 +1,3 @@
-#! /usr/bin/env/python311
-
 import i18n
 from dash import Dash
 from dash_bootstrap_components.themes import BOOTSTRAP
@@ -13,7 +11,6 @@ DATA_PATH = "./data/transactions.csv"
 
 
 def main() -> None:
-
     # set the locale and load the translations
     i18n.set("locale", LOCALE)
     i18n.load_path.append("locale")
